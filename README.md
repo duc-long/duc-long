@@ -1,8 +1,10 @@
 <h1 align="center">Hi 👋 I'm ChrisN</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3FA9F5&center=true&vCenter=true&width=600&lines=In: student | Future: Business;Future+Full-Stack+Developer;Backend+%7C+Database+%7C+Web" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=3FA9F5&center=true&vCenter=true&width=600&lines=Student+at+FPT+University;Future+Business+Oriented+Developer;Backend+%7C+Database+%7C+Web" />
 </p>
+
+
 
 <p align="center">
   ☕ Caffeine-powered · 💻 Code-focused · 🚀 Always learning
