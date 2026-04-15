@@ -1,0 +1,50 @@
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated 3D water molecule">
+  <defs>
+    <radialGradient id="backgroundGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 140) rotate(90) scale(160 240)">
+      <stop stop-color="#7DD3FC" stop-opacity="0.30" />
+      <stop offset="1" stop-color="#7DD3FC" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="oxygenCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 140) scale(1 1)">
+      <stop stop-color="#F8FAFC" />
+      <stop offset="0.45" stop-color="#38BDF8" />
+      <stop offset="1" stop-color="#0F172A" />
+    </radialGradient>
+    <radialGradient id="hydrogenCore" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) scale(1 1)">
+      <stop stop-color="#FFFFFF" />
+      <stop offset="0.65" stop-color="#BAE6FD" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </radialGradient>
+    <linearGradient id="bondGradient" x1="450" y1="140" x2="560" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.35" />
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="900" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="12" />
+    </filter>
+  </defs>
+
+  <rect width="900" height="280" rx="32" fill="#020617" />
+  <ellipse cx="450" cy="156" rx="220" ry="72" fill="#38BDF8" fill-opacity="0.10" filter="url(#blur)" />
+  <ellipse cx="450" cy="150" rx="140" ry="48" fill="#7DD3FC" fill-opacity="0.18" filter="url(#blur)" />
+  <circle cx="450" cy="140" r="102" fill="url(#backgroundGlow)" />
+
+  <g>
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 450 140" to="360 450 140" dur="12s" repeatCount="indefinite" />
+
+    <path d="M450 140L575 96" stroke="url(#bondGradient)" stroke-width="14" stroke-linecap="round" opacity="0.95" />
+    <path d="M450 140L326 184" stroke="url(#bondGradient)" stroke-width="14" stroke-linecap="round" opacity="0.95" />
+    <path d="M450 140L575 96" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round" opacity="0.55" />
+    <path d="M450 140L326 184" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round" opacity="0.55" />
+
+    <circle cx="450" cy="140" r="32" fill="url(#oxygenCore)" stroke="#E0F2FE" stroke-width="3" />
+    <circle cx="575" cy="96" r="21" fill="url(#hydrogenCore)" stroke="#E0F2FE" stroke-width="2.5" />
+    <circle cx="326" cy="184" r="21" fill="url(#hydrogenCore)" stroke="#E0F2FE" stroke-width="2.5" />
+
+    <circle cx="450" cy="140" r="52" fill="none" stroke="#7DD3FC" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="10 12" />
+    <circle cx="450" cy="140" r="82" fill="none" stroke="#BAE6FD" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="6 16" />
+
+    <circle cx="450" cy="140" r="5" fill="#F8FAFC" />
+    <circle cx="575" cy="96" r="4" fill="#F8FAFC" />
+    <circle cx="326" cy="184" r="4" fill="#F8FAFC" />
+  </g>
+</svg>
