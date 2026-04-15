@@ -50,16 +50,6 @@
   </tr>
 </table>
 
-## 💎 Signature Zone
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=duc-long&theme=tokyonight&hide_border=true&background=00000000&ring=7dd3fc&fire=38bdf8&currStreakLabel=7dd3fc&sideLabels=e2e8f0&dates=94a3b8" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="assets/3d-water-light.svg" width="100%" alt="Animated 3D water molecule" />
-</p>
-
 ## 💻 Tech Stack
 
 <table>
@@ -102,6 +92,16 @@
     </td>
   </tr>
 </table>
+
+## 💎 Signature Zone
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=duc-long&theme=tokyonight&hide_border=true&background=00000000&ring=7dd3fc&fire=38bdf8&currStreakLabel=7dd3fc&sideLabels=e2e8f0&dates=94a3b8" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="assets/3d-water-light.svg" width="100%" alt="Animated 3D water molecule" />
+</p>
 
 ## 📫 Contact for Work
 
