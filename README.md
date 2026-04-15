@@ -57,7 +57,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/3d-glass-core.svg" width="100%" alt="3D glass cube illustration" />
+  <img src="assets/3d-water-light.svg" width="100%" alt="Animated 3D water molecule" />
 </p>
 
 ## 💻 Tech Stack
